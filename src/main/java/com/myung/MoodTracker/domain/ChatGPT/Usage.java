@@ -1,10 +1,11 @@
 package com.myung.MoodTracker.domain.ChatGPT;
 
 import jakarta.persistence.Embeddable;
+import lombok.Data;
 import lombok.Getter;
 
 @Embeddable
-@Getter
+@Data
 public class Usage {
     private Integer prompt_tokens;
     private Integer completion_tokens;

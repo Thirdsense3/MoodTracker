@@ -1,9 +1,10 @@
 package com.myung.MoodTracker.domain.ChatGPT;
 
 import lombok.AllArgsConstructor;
+import lombok.Data;
 import lombok.Getter;
 
-@Getter
+@Data
 @AllArgsConstructor
 public class ChatGPTParameter {
     private String model;
